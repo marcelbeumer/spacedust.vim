@@ -20,7 +20,7 @@ hi DiffText                      guibg=#4C4745 gui=italic,bold
 
 hi Directory       guifg=#A6E22E               gui=bold
 hi Error           guifg=#960050 guibg=#1E0010
-hi ErrorMsg        guifg=#F92672 guibg=#374549 gui=bold
+hi ErrorMsg        guifg=#F92672 guibg=#2c383b gui=bold
 hi Exception       guifg=#A6E22E               gui=bold
 hi Float           guifg=#4A9D8F
 hi FoldColumn      guifg=#6E5346 guibg=#041E23
@@ -52,7 +52,7 @@ hi Question        guifg=#66D9EF
 hi Repeat          guifg=#EBC562               gui=bold
 hi Search          guifg=#ECF0C1 guibg=#455354
 " marks column
-hi SignColumn      guifg=#A6E22E guibg=#374549
+hi SignColumn      guifg=#A6E22E guibg=#2c383b
 hi SpecialChar     guifg=#ECF0C1 gui=bold
 hi SpecialComment  guifg=#6E5346               gui=bold
 hi Special         guifg=#66D9EF guibg=bg      gui=italic
@@ -86,8 +86,8 @@ hi normal          guifg=#ECF0C1 guibg=#041E23
 hi comment         guifg=#6E5346
 hi cursorline                    guibg=#293739
 hi cursorcolumn                  guibg=#293739
-hi linenr          guifg=#bcbcbc guibg=#374549
-hi nontext         guifg=#bcbcbc guibg=#374549
+hi linenr          guifg=#898a76 guibg=#2c383b
+hi nontext         guifg=#bcbcbc guibg=#2c383b
 
 " syn match NEWAtSignThing /@[$a-zA-Z]\{1,\}/
 " syn match NEWProp /[a-zA-Z\$]\{1,\}\s*:/ display
