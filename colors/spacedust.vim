@@ -100,3 +100,5 @@ hi nontext         guifg=#bcbcbc guibg=#2c383b
 hi coffeeSpecialIdent guifg=#CB7636
 hi coffeeObjAssign guifg=#009FC5
 hi NonText guifg=#283235
+hi javaScriptType guifg=#CB7636
+hi javaScriptOperator guifg=#EBC562
