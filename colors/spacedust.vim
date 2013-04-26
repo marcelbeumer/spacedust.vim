@@ -93,6 +93,6 @@ hi coffeeSpecialIdent guifg=#D78445
 hi coffeeObjAssign guifg=#00b6d6
 hi NonText guifg=#283235
 
-hi javaScriptContext guifg=#D78445
-hi javaScriptContextAccess guifg=#D78445
-hi javaScriptFuncArg guifg=#3c7277
+hi jsContext guifg=#D78445
+hi jsContextAccess guifg=#D78445
+hi jsFuncArg guifg=#3c7277
