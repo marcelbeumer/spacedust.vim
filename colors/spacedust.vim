@@ -88,7 +88,7 @@ hi cursorline                    guibg=#293739
 hi cursorcolumn                  guibg=#293739
 hi linenr          guifg=#898a76 guibg=#2c383b
 hi nontext         guifg=#bcbcbc guibg=#2c383b
-
+"
 hi coffeeSpecialIdent guifg=#CB7636
 hi coffeeObjAssign guifg=#009FC5
 hi NonText guifg=#283235
