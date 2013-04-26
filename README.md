@@ -1,7 +1,7 @@
 spacedust.vim
 =============
 
-Attempt to get Spacedust color scheme for vim working properly. Includes tweaks for CoffeeScript.
+Attempt to get Spacedust color scheme for vim working properly. Includes tweaks for CoffeeScript. For JavaScript you need [this syntax highlighter](https://github.com/marcelbeumer/vim-javascript-syntax).
 
 The Spacedust color scheme is created by Mikael Hallendal, used his TextMate theme at https://github.com/mhallendal/spacedust-theme to map colors as close as I could.
 
