@@ -3,12 +3,12 @@ hi clear
 set background=dark
 let g:colors_name="spacedust"
 
-hi Boolean         guifg=#4A9D8F
-hi Character       guifg=#4A9D8F
-hi Number          guifg=#4A9D8F
-hi String          guifg=#4A9D8F
+hi Boolean         guifg=#5ab0a0
+hi Character       guifg=#5ab0a0
+hi Number          guifg=#5ab0a0
+hi String          guifg=#5ab0a0
 hi Conditional     guifg=#EBC562               gui=bold
-hi Constant        guifg=#009FC5               gui=bold
+hi Constant        guifg=#00b6d6               gui=bold
 hi Cursor          guifg=#041E23 guibg=#F8F8F0
 hi Debug           guifg=#BCA3A3               gui=bold
 hi Define          guifg=#66D9EF
@@ -22,7 +22,7 @@ hi Directory       guifg=#A6E22E               gui=bold
 hi Error           guifg=#960050 guibg=#1E0010
 hi ErrorMsg        guifg=#F92672 guibg=#2c383b gui=bold
 hi Exception       guifg=#A6E22E               gui=bold
-hi Float           guifg=#4A9D8F
+hi Float           guifg=#5ab0a0
 hi FoldColumn      guifg=#6E5346 guibg=#041E23
 hi Folded          guifg=#6E5346 guibg=#041E23
 hi Function        guifg=#A6E22E
@@ -31,13 +31,13 @@ hi Ignore          guifg=#808080 guibg=bg
 hi IncSearch       guifg=#C4BE89 guibg=#041E23
 
 hi Keyword         guifg=#EBC562               gui=bold
-hi Label           guifg=#4A9D8F               gui=none
+hi Label           guifg=#5ab0a0               gui=none
 hi Macro           guifg=#C4BE89               gui=italic
 hi SpecialKey      guifg=#66D9EF               gui=italic
 
 hi MatchParen      guifg=#041E23 guibg=#FD971F gui=bold
-hi ModeMsg         guifg=#4A9D8F
-hi MoreMsg         guifg=#4A9D8F
+hi ModeMsg         guifg=#5ab0a0
+hi MoreMsg         guifg=#5ab0a0
 hi Operator        guifg=#ECF0C1
 
 " complete menu
@@ -59,7 +59,7 @@ hi Special         guifg=#66D9EF guibg=bg      gui=italic
 hi SpecialKey      guifg=#888A85               gui=italic
 if has("spell")
     hi SpellBad    guisp=#FF0000 gui=undercurl
-    hi SpellCap    guisp=#4A9D8F gui=undercurl
+    hi SpellCap    guisp=#5ab0a0 gui=undercurl
     hi SpellLocal  guisp=#70F0F0 gui=undercurl
     hi SpellRare   guisp=#ECF0C1 gui=undercurl
 endif
@@ -67,13 +67,13 @@ hi Statement       guifg=#EBC562 gui=bold
 hi StatusLine      guifg=#455354 guibg=fg
 hi StatusLineNC    guifg=#808080 guibg=#080808
 hi StorageClass    guifg=#FD971F               gui=italic
-hi Structure       guifg=#E35B00
+hi Structure       guifg=#e86628
 hi Tag             guifg=#F92672               gui=italic
 hi Title           guifg=#ef5939
 hi Todo            guifg=#ECF0C1 guibg=#BB0000 gui=bold
 
 hi Typedef         guifg=#EBC562
-hi Type            guifg=#4A9D8F gui=none
+hi Type            guifg=#5ab0a0 gui=none
 hi Underlined      guifg=#808080               gui=underline
 
 hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
@@ -89,7 +89,10 @@ hi cursorcolumn                  guibg=#293739
 hi linenr          guifg=#898a76 guibg=#2c383b
 hi nontext         guifg=#bcbcbc guibg=#2c383b
 "
-hi coffeeSpecialIdent guifg=#CB7636
-hi coffeeObjAssign guifg=#009FC5
+hi coffeeSpecialIdent guifg=#D78445
+hi coffeeObjAssign guifg=#00b6d6
 hi NonText guifg=#283235
 
+hi javaScriptContext guifg=#D78445
+hi javaScriptContextAccess guifg=#D78445
+hi javaScriptFuncArg guifg=#3c7277
