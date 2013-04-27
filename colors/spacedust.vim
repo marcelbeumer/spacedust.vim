@@ -25,7 +25,7 @@ hi Exception       guifg=#A6E22E               gui=bold
 hi Float           guifg=#5ab0a0
 hi FoldColumn      guifg=#6E5346 guibg=#041E23
 hi Folded          guifg=#6E5346 guibg=#041E23
-hi Function        guifg=#A6E22E
+hi Function        guifg=#00b6d6
 hi Identifier      guifg=#ECF0C1
 hi Ignore          guifg=#808080 guibg=bg
 hi IncSearch       guifg=#C4BE89 guibg=#041E23
@@ -46,8 +46,8 @@ hi PmenuSel                      guibg=#808080
 hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
 
-hi PreCondit       guifg=#A6E22E               gui=bold
-hi PreProc         guifg=#A6E22E
+hi PreCondit       guifg=#EBC562               gui=bold
+hi PreProc         guifg=#EBC562
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#EBC562               gui=bold
 hi Search          guifg=#ECF0C1 guibg=#455354
@@ -68,7 +68,7 @@ hi StatusLine      guifg=#455354 guibg=fg
 hi StatusLineNC    guifg=#808080 guibg=#080808
 hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#e86628
-hi Tag             guifg=#F92672               gui=italic
+hi Tag             guifg=#e86628               gui=italic
 hi Title           guifg=#ef5939
 hi Todo            guifg=#ECF0C1 guibg=#BB0000 gui=bold
 
@@ -88,10 +88,10 @@ hi cursorline                    guibg=#293739
 hi cursorcolumn                  guibg=#293739
 hi linenr          guifg=#898a76 guibg=#2c383b
 hi nontext         guifg=#bcbcbc guibg=#2c383b
-"
+
+hi NonText guifg=#283235
 hi coffeeSpecialIdent guifg=#D78445
 hi coffeeObjAssign guifg=#00b6d6
-hi NonText guifg=#283235
 
 hi jsContext guifg=#D78445
 hi jsContextAccess guifg=#D78445
