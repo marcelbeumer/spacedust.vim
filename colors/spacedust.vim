@@ -8,7 +8,7 @@ hi Character       guifg=#5ab0a0
 hi Number          guifg=#5ab0a0
 hi String          guifg=#5ab0a0
 hi Conditional     guifg=#EBC562               gui=bold
-hi Constant        guifg=#00b6d6               gui=bold
+hi Constant        guifg=#2daee0               gui=bold
 hi Cursor          guifg=#041E23 guibg=#F8F8F0
 hi Debug           guifg=#BCA3A3               gui=bold
 hi Define          guifg=#66D9EF
@@ -18,14 +18,15 @@ hi DiffChange      guifg=#89807D guibg=#4C4745
 hi DiffDelete      guifg=#960050 guibg=#1E0010
 hi DiffText                      guibg=#4C4745 gui=italic,bold
 
-hi Directory       guifg=#A6E22E               gui=bold
+"hi Directory       guifg=#A6E22E               gui=bold
+hi Directory       guifg=#2daee0               gui=bold
 hi Error           guifg=#960050 guibg=#1E0010
 hi ErrorMsg        guifg=#F92672 guibg=#2c383b gui=bold
 hi Exception       guifg=#A6E22E               gui=bold
 hi Float           guifg=#5ab0a0
 hi FoldColumn      guifg=#6E5346 guibg=#041E23
 hi Folded          guifg=#6E5346 guibg=#041E23
-hi Function        guifg=#00b6d6
+hi Function        guifg=#2daee0
 hi Identifier      guifg=#ECF0C1
 hi Ignore          guifg=#808080 guibg=bg
 hi IncSearch       guifg=#C4BE89 guibg=#041E23
@@ -91,7 +92,7 @@ hi nontext         guifg=#bcbcbc guibg=#2c383b
 
 hi NonText guifg=#283235
 hi coffeeSpecialIdent guifg=#D78445
-hi coffeeObjAssign guifg=#00b6d6
+hi coffeeObjAssign guifg=#2daee0
 
 hi jsContext guifg=#D78445
 hi jsContextAccess guifg=#D78445
