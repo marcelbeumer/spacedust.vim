@@ -65,7 +65,7 @@ if has("spell")
     hi SpellRare   guisp=#ECF0C1 gui=undercurl
 endif
 hi Statement       guifg=#EBC562 gui=bold
-hi StatusLine      guifg=#FFFFFF guibg=#222222
+hi StatusLine      guifg=#ECF0C1 guibg=#222222
 hi StatusLineNC    guifg=#000000 guibg=#555555
 hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#e86628
