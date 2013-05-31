@@ -18,8 +18,8 @@ hi DiffChange      guifg=#89807D guibg=#4C4745
 hi DiffDelete      guifg=#960050 guibg=#1E0010
 hi DiffText                      guibg=#4C4745 gui=italic,bold
 
-"hi Directory       guifg=#A6E22E               gui=bold
-hi Directory       guifg=#2daee0               gui=bold
+hi Directory       guifg=#A6E22E               gui=bold
+" hi Directory       guifg=#2daee0               gui=bold
 hi Error           guifg=#960050 guibg=#1E0010
 hi ErrorMsg        guifg=#F92672 guibg=#2c383b gui=bold
 hi Exception       guifg=#A6E22E               gui=bold
@@ -65,8 +65,8 @@ if has("spell")
     hi SpellRare   guisp=#ECF0C1 gui=undercurl
 endif
 hi Statement       guifg=#EBC562 gui=bold
-hi StatusLine      guifg=#455354 guibg=fg
-hi StatusLineNC    guifg=#808080 guibg=#080808
+hi StatusLine      guifg=#FFFFFF guibg=#222222
+hi StatusLineNC    guifg=#000000 guibg=#555555
 hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#e86628
 hi Tag             guifg=#e86628               gui=italic
@@ -77,7 +77,8 @@ hi Typedef         guifg=#EBC562
 hi Type            guifg=#5ab0a0 gui=none
 hi Underlined      guifg=#808080               gui=underline
 
-hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
+" hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
+hi VertSplit       guifg=#000000 guibg=#000000 gui=bold
 hi VisualNOS                     guibg=#403D3D
 hi Visual                        guibg=#403D3D
 hi WarningMsg      guifg=#ECF0C1 guibg=#333333 gui=bold
@@ -87,6 +88,7 @@ hi normal          guifg=#ECF0C1 guibg=#041E23
 hi comment         guifg=#6E5346
 hi cursorline                    guibg=#293739
 hi cursorcolumn                  guibg=#293739
+" hi linenr          guifg=#898a76 guibg=#2c383b
 hi linenr          guifg=#898a76 guibg=#2c383b
 hi nontext         guifg=#bcbcbc guibg=#2c383b
 
