@@ -9,7 +9,7 @@ hi Number          guifg=#5ab0a0
 hi String          guifg=#5ab0a0
 hi Conditional     guifg=#EBC562               gui=bold
 hi Constant        guifg=#2daee0               gui=bold
-hi Cursor          guifg=#041E23 guibg=#F8F8F0
+hi Cursor          guifg=#05242a guibg=#F8F8F0
 hi Debug           guifg=#BCA3A3               gui=bold
 hi Define          guifg=#66D9EF
 hi Delimiter       guifg=#8F8F8F
@@ -24,25 +24,25 @@ hi Error           guifg=#960050 guibg=#1E0010
 hi ErrorMsg        guifg=#F92672 guibg=#2c383b gui=bold
 hi Exception       guifg=#A6E22E               gui=bold
 hi Float           guifg=#5ab0a0
-hi FoldColumn      guifg=#6E5346 guibg=#041E23
-hi Folded          guifg=#6E5346 guibg=#041E23
+hi FoldColumn      guifg=#6E5346 guibg=#05242a
+hi Folded          guifg=#6E5346 guibg=#05242a
 hi Function        guifg=#2daee0
 hi Identifier      guifg=#ECF0C1
 hi Ignore          guifg=#808080 guibg=bg
-hi IncSearch       guifg=#C4BE89 guibg=#041E23
+hi IncSearch       guifg=#C4BE89 guibg=#05242a
 
 hi Keyword         guifg=#EBC562               gui=bold
 hi Label           guifg=#5ab0a0               gui=none
 hi Macro           guifg=#C4BE89               gui=italic
 hi SpecialKey      guifg=#66D9EF               gui=italic
 
-hi MatchParen      guifg=#041E23 guibg=#FD971F gui=bold
+hi MatchParen      guifg=#05242a guibg=#FD971F gui=bold
 hi ModeMsg         guifg=#5ab0a0
 hi MoreMsg         guifg=#5ab0a0
 hi Operator        guifg=#ECF0C1
 
 " complete menu
-hi Pmenu           guifg=#66D9EF guibg=#041E23
+hi Pmenu           guifg=#66D9EF guibg=#05242a
 hi PmenuSel                      guibg=#808080
 hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
@@ -82,9 +82,9 @@ hi VertSplit       guifg=#000000 guibg=#000000 gui=bold
 hi VisualNOS                     guibg=#403D3D
 hi Visual                        guibg=#403D3D
 hi WarningMsg      guifg=#ECF0C1 guibg=#333333 gui=bold
-hi WildMenu        guifg=#66D9EF guibg=#041E23
+hi WildMenu        guifg=#66D9EF guibg=#05242a
 
-hi normal          guifg=#ECF0C1 guibg=#041E23
+hi normal          guifg=#ECF0C1 guibg=#05242a
 hi comment         guifg=#6E5346
 hi cursorline                    guibg=#293739
 hi cursorcolumn                  guibg=#293739
