@@ -65,7 +65,8 @@ if has("spell")
     hi SpellRare   guisp=#ECF0C1 gui=undercurl
 endif
 hi Statement       guifg=#EBC562 gui=bold
-hi StatusLine      guifg=#ECF0C1 guibg=#222222
+" hi StatusLine      guifg=#ECF0C1 guibg=#222222
+hi StatusLine      guifg=#000000 guibg=#ECF0C1
 hi StatusLineNC    guifg=#000000 guibg=#555555
 hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#e86628
@@ -92,6 +93,12 @@ hi cursorcolumn                  guibg=#293739
 hi linenr          guifg=#898a76 guibg=#2c383b
 hi nontext         guifg=#bcbcbc guibg=#2c383b
 
+hi TabLineSel guifg=#ECF0C1
+" hi TabLineSel guifg=#ECF0C1 guibg=#ef5939
+" hi TabLineSel guifg=#FFFFFF guibg=#2daee0
+hi TabLine guifg=#6E5346 guibg=#05242a gui=NONE
+hi TablineFill guifg=#05242a
+
 hi NonText guifg=#283235
 hi coffeeSpecialIdent guifg=#D78445
 hi coffeeObjAssign guifg=#2daee0
@@ -99,3 +106,4 @@ hi coffeeObjAssign guifg=#2daee0
 hi jsContext guifg=#D78445
 hi jsContextAccess guifg=#D78445
 hi jsFuncArg guifg=#3c7277
+
