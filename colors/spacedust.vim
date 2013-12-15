@@ -72,7 +72,7 @@ hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#e86628
 hi Tag             guifg=#e86628               gui=italic
 hi Title           guifg=#ef5939
-hi Todo            guifg=#ECF0C1 guibg=#BB0000 gui=bold
+hi Todo            guifg=#ECF0C1 guibg=#F92672 gui=bold
 
 hi Typedef         guifg=#EBC562
 hi Type            guifg=#5ab0a0 gui=none
@@ -106,4 +106,4 @@ hi coffeeObjAssign guifg=#2daee0
 hi jsContext guifg=#D78445
 hi jsContextAccess guifg=#D78445
 hi jsFuncArg guifg=#3c7277
-
+hi BadWhitespace   guifg=#ECF0C1 guibg=#F92672 gui=bold
