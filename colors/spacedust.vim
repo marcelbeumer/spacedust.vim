@@ -59,7 +59,7 @@ hi SpecialComment  guifg=#6E5346               gui=bold
 hi Special         guifg=#66D9EF guibg=bg      gui=italic
 hi SpecialKey      guifg=#888A85               gui=italic
 if has("spell")
-    hi SpellBad    guisp=#FF0000 gui=undercurl
+    hi SpellBad    guisp=#F92672 gui=undercurl
     hi SpellCap    guisp=#5ab0a0 gui=undercurl
     hi SpellLocal  guisp=#70F0F0 gui=undercurl
     hi SpellRare   guisp=#ECF0C1 gui=undercurl
@@ -98,6 +98,8 @@ hi TabLineSel guifg=#ECF0C1
 " hi TabLineSel guifg=#FFFFFF guibg=#2daee0
 hi TabLine guifg=#6E5346 guibg=#05242a gui=NONE
 hi TablineFill guifg=#05242a
+
+hi ColorColumn guibg=#041f26
 
 hi NonText guifg=#283235
 hi coffeeSpecialIdent guifg=#D78445
