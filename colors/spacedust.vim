@@ -105,7 +105,5 @@ hi NonText guifg=#283235
 hi coffeeSpecialIdent guifg=#D78445
 hi coffeeObjAssign guifg=#2daee0
 
-hi jsContext guifg=#D78445
-hi jsContextAccess guifg=#D78445
 hi jsFuncArg guifg=#3c7277
 hi BadWhitespace   guifg=#ECF0C1 guibg=#F92672 gui=bold
